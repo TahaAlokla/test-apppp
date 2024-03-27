@@ -1,0 +1,11 @@
+{
+    "VIEW_committee": "عرض اللجنه",
+    "DELETE_NATIONALITY": "حذف الجنسية",
+    "ADD_NATIONALITY": "اضافه جنسية",
+    "EDIT_NATIONALITY": "تعديل جنسية",
+    "QURY_NATIONALITY": "استعلام عن جنسية",
+    "EXPORT_STUDENT": "تصدير الطلاب",
+    "Query_STUDENT": "الاستعلام عن طالب",
+    "DELETE_STUDENT": "حذف طالب",
+    "ADD_STUDENT": "اضافه طالب"
+}

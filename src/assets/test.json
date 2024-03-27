@@ -1,0 +1,25 @@
+{
+    "STUDENT_PAGE": [
+        "VIEW_committee",
+        "DELETE_NATIONALITY",
+        "ADD_NATIONALITY",
+        "EDIT_NATIONALITY",
+        "QURY_NATIONALITY",
+        "EXPORT_STUDENT",
+        "Query_STUDENT",
+        "DELETE_STUDENT",
+        "ADD_STUDENT",
+        "ADD_ITEM"
+    ],
+    "Teacher_PAGE": [
+        "VIEW_COMENTY",
+        "DELETE_NATIONALITY",
+        "ADD_NATIONALITY",
+        "EDIT_NATIONALITY",
+        "QURY_NATIONALITY",
+        "EXPORT_STUDENT",
+        "Query_STUDENT",
+        "DELETE_STUDENT",
+        "ADD_STUDENT"
+    ]
+}

@@ -1,0 +1,31 @@
+<div class="flex flex-col flex-auto min-w-0">
+    <!-- Main -->
+    <div class="flex-auto p-6 sm:p-10">
+        <!-- CONTENT GOES HERE -->
+        <div
+            class="h-400 min-h-400 max-h-400 border-2 border-dashed border-gray-300 rounded-2xl px-4 gap-x-4"
+        >
+            <div class="h-20 bg-white px-4 flex justify-center gap-x-4 py-4">
+                <button mat-stroked-button>
+                    {{ "VIEW_committee" | transloco }}
+                </button>
+                <button mat-stroked-button>
+                    {{ "ADD_STUDENT" | transloco }}
+                </button>
+                <button mat-stroked-button>
+                    {{ "Query STUDENT" | transloco }}
+                </button>
+                <button mat-stroked-button>
+                    {{ "EXPORT_STUDENT" | transloco }}
+                </button>
+                <!--  *ngxPermissionsOnly="['Actions.ADD_ITEM']" -->
+                <button
+                    mat-stroked-button
+                    *ngxPermissionsOnly="['ROLE_NAME.ADD_ITEM']"
+                >
+                    {{ "DELETE_STUDENT" | transloco }}
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
